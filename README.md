@@ -466,7 +466,3 @@ This plugin declares support for `OTv4.2.x`. Other Open Ticket versions may requ
 - Plugin author: Divyam Goyal.
 - Contributor listed in plugin metadata: Eseclick.
 - Open Ticket is by the Open Ticket project and its maintainers.
-
-## License
-
-The root Open Ticket repository in this workspace is licensed under **GPL-3.0-only**. See `LICENSE.md` in the repository root.
