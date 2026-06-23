@@ -58,8 +58,8 @@ The dashboard is served by the bot process and is protected by the password conf
 
 ## Requirements
 
-- Open Ticket `OTv4.2.x`.
-- Node.js version compatible with Open Ticket 4.2.x and the repo dependencies.
+- Open Ticket `OTv4.2.1`.
+- Node.js version compatible with Open Ticket 4.2.1 and the repo dependencies.
 - Discord.js v14, already used by Open Ticket.
 - A Discord bot token configured in Open Ticket.
 - A bot invite with access to the channels you want to manage.
@@ -411,12 +411,6 @@ Webhook sending through an existing webhook URL does not require the bot to crea
 - Check for incompatible plugins listed in `plugin.json`.
 - Run `npm run build` from the Open Ticket root and read any TypeScript errors.
 
-### Screenshots not showing in README
-
-- Keep screenshots in `plugins/ot-aio/Screenshots`.
-- Use relative paths such as `./Screenshots/dashboard-overview.png`.
-- Keep filename casing exactly the same.
-
 ### Embed not sending
 
 - Confirm a valid text or announcement channel is selected.
@@ -447,7 +441,7 @@ Webhook sending through an existing webhook URL does not require the bot to crea
 
 ### Open Ticket version mismatch
 
-This plugin declares support for `OTv4.2.x`. Other Open Ticket versions may require code changes.
+This plugin declares support for `OTv4.2.1`. Other Open Ticket versions may require code changes.
 
 ## Security Notes
 
