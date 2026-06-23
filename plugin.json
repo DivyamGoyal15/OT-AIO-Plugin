@@ -1,0 +1,44 @@
+{
+    "name": "Open Ticket AIO",
+    "id": "ot-aio",
+    "version": "1.0.0",
+    "startFile": "index.ts",
+    "supportedVersions": [
+        "OTv4.2.x"
+    ],
+    "enabled": true,
+    "priority": 0,
+    "events": [],
+    "npmDependencies": [
+        "express",
+        "express-session",
+        "ejs",
+        "helmet",
+        "express-rate-limit",
+        "jsonc"
+    ],
+    "requiredPlugins": [],
+    "incompatiblePlugins": [
+        "ot-sticky-messages",
+        "ot-glassy-dashboard",
+        "ese-welcomer",
+        "ot-dashboard"
+    ],
+    "details": {
+        "author": "Divyam Goyal",
+        "contributors": [
+            "Eseclick"
+        ],
+        "shortDescription": "All-in-one Open Ticket plugin for sticky messages, welcomer, dashboard, and safe config editing.",
+        "longDescription": "Combines Sticky Messages, a Welcomer module, and a private glassy dashboard for Open Ticket 4.2.x. The dashboard can manage included module settings and safely edit selected Open Ticket JSONC configuration files with validation and backups.",
+        "imageUrl": "",
+        "projectUrl": "",
+        "tags": [
+            "dashboard",
+            "sticky",
+            "welcomer",
+            "config",
+            "aio"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "dashboard": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 3000,
+        "password": "divyamgoyal15",
+        "sessionSecret": "9f4b2c8a7d6e1f0b3a9c5e8d2f7a1b6c4e0d9a3f8c2b7e1d6f0a9c5b3e8d2f1a",
+        "siteTitle": "Ticket Bot AIO Dashboard"
+    },
+    "modules": {
+        "sticky": {
+            "enabled": true
+        },
+        "welcomer": {
+            "enabled": true
+        },
+        "configManager": {
+            "enabled": true
+        }
+    },
+    "configManager": {
+        "backupDirectory": ".backup/ot-aio-config",
+        "allowRawJsoncFiles": [
+            "panels",
+            "options",
+            "questions",
+            "transcripts"
+        ]
+    }
+}

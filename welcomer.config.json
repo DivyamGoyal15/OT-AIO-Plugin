@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "welcome": {
+        "enabled": true,
+        "channelId": "1517428522509926401",
+        "messageContent": "Welcome {user} to {server}!",
+        "testTitle": "Welcome!\\n\\n",
+        "dm": {
+            "enabled": false,
+            "messageContent": "Welcome to {server}, {user}!"
+        },
+        "roles": {
+            "enabled": false,
+            "roleIds": []
+        },
+        "embed": {
+            "enabled": true,
+            "color": "#ffffff",
+            "title": "New Member!",
+            "description": "Welcome {user}, we are glad to have you here!",
+            "footer": "Welcomer",
+            "thumbnail": "user-icon",
+            "image": "",
+            "timestamp": true,
+            "author": {
+                "name": "Welcome",
+                "icon": "",
+                "url": ""
+            }
+        }
+    },
+    "leave": {
+        "enabled": false,
+        "channelId": "YOUR_CHANNEL_ID_HERE",
+        "messageContent": "{user} has left the server.",
+        "testTitle": "Goodbye!\\n\\n",
+        "embed": {
+            "enabled": true,
+            "color": "#ff0000",
+            "title": "Member Left",
+            "description": "Goodbye {user}, we hope to see you back soon!",
+            "footer": "Welcomer",
+            "thumbnail": "user-icon",
+            "image": "",
+            "timestamp": true,
+            "author": {
+                "name": "Goodbye",
+                "icon": "",
+                "url": ""
+            }
+        }
+    }
+}
